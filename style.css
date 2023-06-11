@@ -1,0 +1,27 @@
+.container {
+    flex-basis: 45%; /* Change width to flex-basis */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+/* Add a wrapper for the containers */
+.container-wrapper {
+    display: flex;
+}
+
+.item {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: grab;
+}
+
+.item:active {
+    cursor: grabbing;
+}
+
+#resetBtn {
+    display: block;
+    margin-top: 20px;
+}
